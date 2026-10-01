@@ -30,6 +30,7 @@ on this machine at Session 0. Until Tim supplies it, no scope is invented.
 1. **Playbook location.** Provide
    `~/Desktop/Drips/_reference/playbooks/STELLAR-BUILD-PLAYBOOK-v3.md` so the
    docs plan can be written against a real scope.
+2. **Second reviewer.** Name the second human reviewer required before any funded test.
 
 ## Explicitly out of scope
 
