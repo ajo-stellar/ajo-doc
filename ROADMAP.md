@@ -3,6 +3,10 @@
 What is next for `ajo-docs`, in order. Anything not listed as done is
 **not implemented**.
 
+## Local v0 implementation
+
+Contract, app and book source now exist. Local validation evidence lives in TESTING.md. Deployment and funded tests remain blocked pending the second human review. Historical unchecked next-items below are reviewed against the actual source; they are not evidence of deployment.
+
 ## Status
 
 - [x] Repository governance: AGENTS.md, CONTRIBUTING.md, ROADMAP.md, LICENSE,
