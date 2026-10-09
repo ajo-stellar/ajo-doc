@@ -1,5 +1,11 @@
 # Architecture
 
+<div class="project-brand">
+  <img class="brand-light" src="brand/logo.svg" alt="Ajo" width="360">
+  <img class="brand-dark" src="brand/logo-dark.svg" alt="Ajo" width="360">
+</div>
+
+
 The browser calls Soroban directly; wallets provide public addresses and signed transactions. There is no backend. Network configuration comes from environment values and refuses other networks (`ajo-app/src/lib/network.ts`).
 
 Five public methods are declared in `ajo-contracts/src/lib.rs`. `circles.rs` implements bounded circles of 2–20 unique members, fixed payout order, authorized contributions and permissionless settlement only after everyone pays. `types.rs` defines stored types, errors and events; `storage.rs` owns keys and TTL renewal.

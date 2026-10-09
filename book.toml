@@ -2,3 +2,6 @@
 title = "Ajo testnet prototype"
 language = "en"
 src = "src"
+
+[output.html]
+additional-css = ["theme/brand.css"]
